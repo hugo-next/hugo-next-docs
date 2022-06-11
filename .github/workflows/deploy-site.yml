@@ -15,16 +15,16 @@ jobs:
           fetch-depth: 0 
 
       - name: Setting variable
-        run: sed -i '
+        run: "sed -i '
               s|#{Waline_Server_URL}|${{ secrets.Waline_Server_URL }}|g
               s/#{Add_This_Id}/${{ secrets.Add_This_Id }}/g
-              ' config.yaml
+              ' config.yaml"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.100.1'
-            extended: true
+          extended: true
 
       - name: Build
         run: hugo --minify
