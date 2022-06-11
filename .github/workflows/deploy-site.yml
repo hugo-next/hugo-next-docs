@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -15,10 +15,7 @@ jobs:
           fetch-depth: 0 
 
       - name: Setting variable
-        run: |
-          echo `pwd`
-          ls -al
-          sh .github/scripts/replace-vars.sh
+        run: sh .github/scripts/replace-vars.sh
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -29,7 +26,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
