@@ -1,5 +1,7 @@
 # Ignore files in Hugo NexT theme docs site
 
+config.*.yaml
+
 # Hugo build lock file
 .hugo_build.lock
 

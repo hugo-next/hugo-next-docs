@@ -391,7 +391,7 @@ params:
   # Easily browse and edit blog source code online.
   postEdit:
     enable: true
-    url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
+    url: https://github.com/hugo-next/hugo-next-docs/tree/source/content/posts/ # Link for view source
     #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
   # Show previous post and next post in post footer if exists
@@ -501,8 +501,8 @@ params:
   # `Follow me on GitHub` banner in the top-right corner.
   githubBanner:
     enable: true
-    permalink: https://github.com/yourname
-    title: Follow me on GitHub
+    permalink: https://github.com/hugo-next/hugo-theme-next
+    title: 给个小星星吧
 
 
   # ---------------------------------------------------------------
@@ -573,7 +573,7 @@ params:
 
   # Google Webmaster tools verification.
   # See: https://developers.google.com/search
-  googleSiteVerification: 5AUIVYTbHIAuz-eQtxSfZbWW5eg9_EVZMSQycIuXrG0
+  googleSiteVerification: 
 
   # Bing Webmaster tools verification.
   # See: https://www.bing.com/webmasters
@@ -686,12 +686,12 @@ params:
 
   waline:
     enable: true
-    placeholder: "请文明发言"
+    placeholder: "请文明发言，谢谢。"
     emoji: false
     imgUploader: false
     wordLimit: 200
     requiredMeta: ['nick', 'mail']
-    serverURL: "https://waline.js.org"
+    serverURL: "#{Waline_Server_URL}"
 
   # Disqus
   # For more information: https://disqus.com
@@ -723,7 +723,7 @@ params:
   # You can get your uid from https://livere.com/insight/myCode (General web site)
   livere:
     enable: true
-    uid: MTAyMC81MTM4MC8yNzg2MQ== # <your_uid>
+    uid: # <your_uid>
 
   # Gitalk
   # For more information: https://gitalk.github.io
@@ -772,7 +772,7 @@ params:
 
   # AddThis Share. See: https://www.addthis.com
   # Go to https://www.addthis.com/dashboard to customize your tools.
-  addThisId: 
+  addThisId: "#{Add_This_Id}"
 
 
   # ---------------------------------------------------------------

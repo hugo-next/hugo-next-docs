@@ -1,4 +1,4 @@
-name: sync-2-gitee
+name: Sync code to Gitee repository
 
 on:
   push
