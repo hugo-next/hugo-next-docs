@@ -40,8 +40,7 @@ jobs:
 
       - name: Copy README & License
         run: |
-              ls -al
-              cp README.md REDME.zh.md ./public
+              cp README.md README.zh.md ./public
               cp LICENSE ./public
 
       - name: Deploy Pages
