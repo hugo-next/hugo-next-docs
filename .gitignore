@@ -1,6 +1,8 @@
-# Ignore files in Hugo NexT theme
+# Ignore files in Hugo NexT theme docs site
 
+# Hugo build lock file
 .hugo_build.lock
 
-exampleSite/public
-exampleSite/resources
+# Generate dist resource folders
+public/
+resources/
