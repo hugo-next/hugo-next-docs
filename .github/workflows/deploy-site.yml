@@ -15,10 +15,7 @@ jobs:
           fetch-depth: 0 
 
       - name: Setting variable
-        run: "sed -i '
-              s|#{Waline_Server_URL}|${{ secrets.Waline_Server_URL }}|g
-              s/#{Add_This_Id}/${{ secrets.Add_This_Id }}/g
-              ' config.yaml"
+        run: sh ./scripts/replace-vars.sh
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
