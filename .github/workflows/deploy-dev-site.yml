@@ -1,9 +1,9 @@
-name: Sync code & Deploy Site
+name: Deploy Preliminary Site
 
 on:
   push:
     branches:
-      - source
+      - develop
 
 jobs:
 
@@ -27,6 +27,9 @@ jobs:
           fetch-depth: 0 
 
       - name: Setting variable
+        env:
+          WALINE_SERVER_URL: ${{ secrets.WALINE_SERVER_URL }}
+          ADD_THIS_ID: ${{ secrets.ADD_THIS_ID }}
         run: sh .github/scripts/replace-vars.sh
 
       - name: Setup Hugo
@@ -46,9 +49,9 @@ jobs:
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+          deploy_key: ${{ secrets.RSA_PRIVATE_KEY }}
           external_repository: hugo-next/hugo-next.github.io
           publish_dir: "./public"        
           keep_files: false
-          publish_branch: main
+          publish_branch: develop
           commit_message: ${{ github.event.head_commit.message }}
