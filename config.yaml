@@ -791,6 +791,10 @@ params:
   # See: https://hugo-next.js.org/docs/third-party-services/statistics-and-analytics
   # ---------------------------------------------------------------
 
+  # 51La Analytics
+  # See: https://invite.51.la/1NUfGTS1?target=V6 
+  laId: "#{Analytics_La_Id}"  
+
   # Google Analytics
   # See: https://analytics.google.com
   google_analytics:
