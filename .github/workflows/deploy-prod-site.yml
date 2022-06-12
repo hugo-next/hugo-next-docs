@@ -1,0 +1,57 @@
+name: Deploy Preliminary Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  sync-2-gitee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        with:
+          source-repo: git@github.com:hugo-next/hugo-next-docs.git
+          destination-repo: git@gitee.com:hugo-next/hugo-next-docs.git
+
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0 
+
+      - name: Setting variable
+        env:
+          WALINE_SERVER_URL: ${{ secrets.WALINE_SERVER_URL }}
+          ADD_THIS_ID: ${{ secrets.ADD_THIS_ID }}
+        run: sh .github/scripts/replace-vars.sh
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.100.1'
+          extended: true
+
+      - name: Build Site
+        run: hugo --minify
+
+      - name: Copy README & License
+        run: |
+              cp README.md README.zh.md ./public
+              cp LICENSE ./public
+
+      - name: Deploy Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.RSA_PRIVATE_KEY }}
+          external_repository: hugo-next/hugo-next.github.io
+          publish_dir: "./public"        
+          keep_files: false
+          publish_branch: main
+          commit_message: ${{ github.event.head_commit.message }}
