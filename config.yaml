@@ -4,7 +4,7 @@
 # See: https://hugo-next.js.org/docs/getting-started/configuration
 # ===============================================================
 
-baseURL: "https://hugo-next.github.io"
+baseURL: /
 
 theme: hugo-theme-next
 

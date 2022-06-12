@@ -39,7 +39,7 @@ jobs:
           extended: true
 
       - name: Build Site
-        run: hugo --minify
+        run: hugo --minify -b https://hugo-next-prod.vercel.app
 
       - name: Copy README & License
         run: |
