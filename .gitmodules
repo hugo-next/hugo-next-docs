@@ -1,7 +1,0 @@
-[submodule "themes/hugo-theme-next"]
-	path = themes/hugo-theme-next
-  url = https://github.com/hugo-next/hugo-theme-next.git
-  branch = develop
-## Suggest use the Gitee repository URL when you in China.
-##	url = https://gitee.com/hugo-next/hugo-theme-next.git
-	
