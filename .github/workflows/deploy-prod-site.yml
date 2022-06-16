@@ -1,4 +1,4 @@
-name: Deploy Preliminary Site
+name: Deploy Production Site
 
 on:
   push:
@@ -39,8 +39,12 @@ jobs:
           hugo-version: '0.100.1'
           extended: true
 
-      - name: Build Site
-        run: hugo --minify -b https://hugo-next-prod.vercel.app
+      - name: Build Demo Sites
+        run: |
+              hugo -b ${{ secrets.PROD_DOMAIN }} --minify
+              hugo -b ${{ secrets.PROD_DOMAIN }}/mist -e mist -d ./public/mist --minify
+              hugo -b ${{ secrets.PROD_DOMAIN }}/muse -e muse -d ./public/muse --minify
+              hugo -b ${{ secrets.PROD_DOMAIN }}/pisces -e pisces -d ./public/pisces --minify
 
       - name: Copy README & License
         run: |
@@ -56,3 +60,15 @@ jobs:
           keep_files: false
           publish_branch: main
           commit_message: ${{ github.event.head_commit.message }}
+
+  push-site:
+    needs: build-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push Site to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        with:
+          source-repo: git@github.com:hugo-next/hugo-next.github.io.git
+          destination-repo: git@gitee.com:hugo-next/hugo-next.git

@@ -1,0 +1,31 @@
+# Parameters for English version
+
+author: Theme NexT
+subtitle: Theme for Hugo
+description: Stay easily & powerful.
+keywords: Hugo,NexT,Theme,easily,powerful
+
+linksSets:
+  icon: fa fa-globe
+  title: Friends
+  
+footer:
+  vendors:
+    title: Offering CDN & Cloud Resource
+
+postFooter:
+  endLineTip: "~ End of this post ~"
+
+rewardSets:
+  comment: '<i class="fa-solid fa-mug-hot"></i>Buy me a coffe ヾ(^▽^*)))'
+
+githubBanner:
+  title: Give stars
+
+waline:
+  emoji: false
+  imgUploader: false
+  wordLimit: 200
+  requiredMeta: ['nick', 'mail']
+  serverURL: "#{Waline_Server_URL}"
+  placeholder: "Please leave your E-mail make me connect with you."
