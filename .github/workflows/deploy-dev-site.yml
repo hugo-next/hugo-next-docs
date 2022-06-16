@@ -39,8 +39,11 @@ jobs:
           hugo-version: '0.100.1'
           extended: true
 
-      - name: Build Site
-        run: hugo --minify
+      - name: Build Default Site
+        run: hugo -b https://hugo-next-dev.vercel.app --minify
+
+      - name: Build Mist Site
+        run: hugo -b https://hugo-next-dev.vercel.app/mist -d ./public/mist --minify
 
       - name: Copy README & License
         run: |
