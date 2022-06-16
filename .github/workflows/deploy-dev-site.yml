@@ -41,7 +41,7 @@ jobs:
 
       - name: Build Demo Sites
         run: |
-              hugo --minify
+              hugo -b ${{ secrets.DEV_DOMAIN }} --minify
               hugo -b ${{ secrets.DEV_DOMAIN }}/mist -e mist -d ./public/mist --minify
               hugo -b ${{ secrets.DEV_DOMAIN }}/muse -e muse -d ./public/muse --minify
               hugo -b ${{ secrets.DEV_DOMAIN }}/pisces -e pisces -d ./public/pisces --minify
