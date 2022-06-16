@@ -43,7 +43,7 @@ jobs:
         run: hugo -b https://hugo-next-dev.vercel.app --minify
 
       - name: Build Mist Site
-        run: hugo -b https://hugo-next-dev.vercel.app/mist -d ./public/mist --minify
+        run: hugo -e mist -b https://hugo-next-dev.vercel.app/mist -d ./public/mist --minify
 
       - name: Copy README & License
         run: |
@@ -69,5 +69,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
-          source-repo: git@github.com:hugo-next/hugo-next.git
+          source-repo: git@github.com:hugo-next/hugo-next.github.io.git
           destination-repo: git@gitee.com:hugo-next/hugo-next.git
