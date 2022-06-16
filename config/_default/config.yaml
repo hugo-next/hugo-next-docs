@@ -5,6 +5,7 @@
 # ===============================================================
 
 baseURL: /
+canonifyURLs: true
 
 theme: hugo-theme-next
 
