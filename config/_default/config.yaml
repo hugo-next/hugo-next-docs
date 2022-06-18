@@ -928,8 +928,8 @@ params:
   # Use Animate.css to animate everything.
   # For more information: https://animate.style
   motion:
-    enable: false
-    async: false
+    enable: true
+    async: true
     transition:
       # All available transition variants: https://hugo-next.js.org/animate/
       postBlock: fadeIn
