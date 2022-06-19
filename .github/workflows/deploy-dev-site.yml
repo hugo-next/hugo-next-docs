@@ -30,6 +30,8 @@ jobs:
         env:
           ADD_THIS_ID: ${{ secrets.ADD_THIS_ID }}
           ANALYTICS_LA_ID: ${{ secrets.ANALYTICS_LA_ID }}
+          UTER_LABEL: ${{ secrets.UTER_LABEL }}
+          UTER_REPO_NAME: ${{ secrets.UTER_REPO_NAME }}
           WALINE_SERVER_URL: ${{ secrets.WALINE_SERVER_URL }}
         run: sh .github/scripts/replace-vars.sh
 
