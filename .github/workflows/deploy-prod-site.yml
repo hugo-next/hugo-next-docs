@@ -43,10 +43,10 @@ jobs:
 
       - name: Build Demo Sites
         run: |
-              hugo -b ${{ secrets.PROD_DOMAIN }} --minify
-              hugo -b ${{ secrets.PROD_DOMAIN }}/mist -e mist -d ./public/mist --minify
-              hugo -b ${{ secrets.PROD_DOMAIN }}/muse -e muse -d ./public/muse --minify
-              hugo -b ${{ secrets.PROD_DOMAIN }}/pisces -e pisces -d ./public/pisces --minify
+              hugo --minify
+              hugo -b /mist -e mist -d ./public/mist --minify
+              hugo -b /muse -e muse -d ./public/muse --minify
+              hugo -b /pisces -e pisces -d ./public/pisces --minify
 
       - name: Copy README & License
         run: |
