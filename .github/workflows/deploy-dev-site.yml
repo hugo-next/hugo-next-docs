@@ -30,6 +30,8 @@ jobs:
         env:
           ADD_THIS_ID: ${{ secrets.ADD_THIS_ID }}
           ANALYTICS_LA_ID: ${{ secrets.ANALYTICS_LA_ID }}
+          UTER_LABEL: ${{ secrets.UTER_LABEL }}
+          UTER_REPO_NAME: ${{ secrets.UTER_REPO_NAME }}
           WALINE_SERVER_URL: ${{ secrets.WALINE_SERVER_URL }}
         run: sh .github/scripts/replace-vars.sh
 
@@ -41,15 +43,16 @@ jobs:
 
       - name: Build Demo Sites
         run: |
-              hugo -b ${{ secrets.DEV_DOMAIN }} --minify
-              hugo -b ${{ secrets.DEV_DOMAIN }}/mist -e mist -d ./public/mist --minify
-              hugo -b ${{ secrets.DEV_DOMAIN }}/muse -e muse -d ./public/muse --minify
-              hugo -b ${{ secrets.DEV_DOMAIN }}/pisces -e pisces -d ./public/pisces --minify
+              hugo --minify
+              hugo -b /mist -e mist -d ./public/mist --minify
+              hugo -b /muse -e muse -d ./public/muse --minify
+              hugo -b /pisces -e pisces -d ./public/pisces --minify
 
       - name: Copy README & License
         run: |
               cp README.md README.zh.md ./public
               cp LICENSE ./public
+              cp vercel.json ./public
 
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3

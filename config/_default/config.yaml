@@ -286,7 +286,7 @@ params:
     vendors:
       title: 提供CDN/云资源支持
       list:
-        - name: CloudBase Webify
+        - name: Webify
           link: https://webify.cloudbase.net
         - name: Vercel
           img: /imgs/vendors/vercel.svg || 58
@@ -415,7 +415,7 @@ params:
     mobile: justify
 
   # Reduce padding / margin indents on devices with narrow width.
-  mobileLayoutEconomy: false
+  mobileLayoutEconomy: true
 
   # Browser header panel color.
   themeColor:
@@ -540,9 +540,11 @@ params:
   index_with_subtitle: false
 
   # Automatically add external URL with Base64 encrypt & decrypt.
-  exturl: false
+  exturl: 
+    enable: true
+    icon: true
   # If true, an icon will be attached to each external URL
-  exturl_icon: true
+  #exturl_icon: true
 
   # Google Webmaster tools verification.
   # See: https://developers.google.com/search
@@ -654,7 +656,7 @@ params:
         weight: 1
       - name: Utterances
         title: Utters
-        color: "#494949"
+        color: "#886ce4"
         weight: 2
 
   waline:
@@ -719,12 +721,12 @@ params:
   # For more information: https://utteranc.es
   utterances:
     enable: true
-    repo: username/repo-name # Github repository owner and name
+    repo: "#{Uter_Repo_Name}" # Github repository owner and name
     # Available values: pathname | url | title | og:title
     issueTerm: pathname
-    label: Comments
+    label: "#{Uter_Label}"
     # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
-    theme: github-light
+    theme: preferred-color-scheme
 
   # Isso
   # For more information: https://posativ.org/isso/
@@ -928,8 +930,8 @@ params:
   # Use Animate.css to animate everything.
   # For more information: https://animate.style
   motion:
-    enable: false
-    async: false
+    enable: true
+    async: true
     transition:
       # All available transition variants: https://hugo-next.js.org/animate/
       postBlock: fadeIn
