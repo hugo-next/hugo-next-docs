@@ -286,15 +286,18 @@ params:
     vendors:
       title: 提供CDN/云资源支持
       list:
-        - name: Webify
-          link: https://webify.cloudbase.net
         - name: Vercel
-          img: /imgs/vendors/vercel.svg || 58
+          image: 
+            url: /imgs/vendors/vercel.svg
+            width: 50
           link: https://vercel.com
         - name: 又拍云
-          img: /imgs/vendors/upyun.png || 46
+          image: 
+            url: /imgs/vendors/upyun.png
+            width: 43
           link: https://upyun.com
-
+        - name: Webify
+          link: https://webify.cloudbase.net
 
   # ---------------------------------------------------------------
   # Post Settings
