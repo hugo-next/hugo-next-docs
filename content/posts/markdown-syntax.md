@@ -165,6 +165,8 @@ url: post/markdown-syntax.html
 
 ## Code
 
+直接使用 Markdwon 的代码块来标识代码内容，效果如下：
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -177,6 +179,8 @@ url: post/markdown-syntax.html
 </body>
 </html>
 ```
+
+使用 Hugo 自身的 `highlight` 短代码标签来标识代码内容，效果如下：
 
 {{< highlight html >}}
 <!DOCTYPE html>

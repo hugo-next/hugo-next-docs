@@ -47,14 +47,14 @@ func GetTitleFunc(style string) func(s string) string {
 import javax.swing.JFrame;  //Importing class JFrame
 import javax.swing.JLabel;  //Importing class JLabel
 public class HelloWorld {
-    public static void main(String[] args) {
-        JFrame frame = new JFrame();           //Creating frame
-        frame.setTitle("Hi!");                 //Setting title frame
-        frame.add(new JLabel("Hello, world!"));//Adding text to frame
-        frame.pack();                          //Setting size to smallest
-        frame.setLocationRelativeTo(null);     //Centering frame
-        frame.setVisible(true);                //Showing frame
-    }
+  public static void main(String[] args) {
+    JFrame frame = new JFrame();           //Creating frame
+    frame.setTitle("Hi!");                 //Setting title frame
+    frame.add(new JLabel("Hello, world!"));//Adding text to frame
+    frame.pack();                          //Setting size to smallest
+    frame.setLocationRelativeTo(null);     //Centering frame
+    frame.setVisible(true);                //Showing frame
+  }
 }
 ```
 
@@ -79,6 +79,9 @@ It is important to spell
 +new line
 ```
 
+
+关闭行号的显示：
+
 ```diff {hl_lines=[4,"6-7"], linenos=false}
 *** /path/to/original ''timestamp''
 --- /path/to/new  ''timestamp''
@@ -101,7 +104,7 @@ CC=gcc
 CFLAGS=-I.
 
 hellomake: hellomake.o hellofunc.o
-     $(CC) -o hellomake hellomake.o hellofunc.o -I.
+  $(CC) -o hellomake hellomake.o hellofunc.o -I.
 ```
 
 ## Markdown 文档
@@ -118,7 +121,7 @@ hellomake: hellomake.o hellofunc.o
 
 ``` json
 {"employees":[
-    {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"John", "lastName":"Doe"},
 ]}
 ```
 
@@ -126,20 +129,21 @@ hellomake: hellomake.o hellofunc.o
 
 ``` xml
 <employees>
-    <employee>
-        <firstName>John</firstName> <lastName>Doe</lastName>
-    </employee>
+  <employee>
+    <firstName>John</firstName> <lastName>Doe</lastName>
+  </employee>
 </employees>
 ```
 
 ## SQL 查询
 
-{{< highlight sql >}}
+{{< highlight sql "linenos=table">}}
 
 SELECT column_name,column_name
 FROM
   Table
 WHERE column_name = "condition"
+
 {{< / highlight >}}
 
 
