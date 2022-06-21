@@ -443,9 +443,9 @@ params:
       dark: prism-dark
     # Add copy button on codeblock
     copyBtn:
-      enable: false
+      enable: true
       # Available values: default | flat | mac
-      style: default
+      style: mac
 
   backTop:
     enable: true
