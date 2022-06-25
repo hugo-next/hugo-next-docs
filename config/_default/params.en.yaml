@@ -23,6 +23,8 @@ githubBanner:
   title: Give stars
 
 waline:
+  enable: true
+  pageView: true
   emoji: false
   imgUploader: false
   wordLimit: 200

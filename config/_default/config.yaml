@@ -664,6 +664,7 @@ params:
 
   waline:
     enable: true
+    pageView: true
     placeholder: "请文明发言，谢谢。"
     emoji: false
     imgUploader: false
@@ -816,7 +817,7 @@ params:
     visitorsIcon: fa fa-user
     views: true
     viewsIcon: fa fa-eye
-    postViews: true
+    postViews: false
     postViewsIcon: far fa-eye
 
 
