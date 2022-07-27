@@ -17,6 +17,6 @@ Documentation: https://hugo-next.js.org
 EOT
 }
 
-next V4.0.0
+next `cat themes/hugo-theme-next/VERSION`
 
-hugo server -D --port 1414 --panicOnWarning
+hugo server --port 1414 --panicOnWarning

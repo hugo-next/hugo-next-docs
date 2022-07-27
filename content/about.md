@@ -33,3 +33,11 @@ url: about.html
 
 <img src="https://lisenhui.gitee.io/imgs/hugo-next/logo/hugo-next-symbol.png" width="20%" alt="Symbol Logo" />
 
+# 使用反馈
+
+- 加入 [GitHub Discussions](https://github.com/hugo-next/hugo-theme-next/discussions) 或 [Gitter](https://gitter.im/hugo-next/community) 在线讨论 :beers:
+- [GitHub Issues](https://github.com/hugo-next/hugo-theme-next/issues/new?labels=Bug&template=bug-report.md) 提交错误报告 :bug:
+- [GitHub Feature](https://github.com/hugo-next/hugo-theme-next/issues/new?labels=Feature+Request&template=feature-request.md) 表新功能的想法 :sparkles:
+
+> 同时国内用户也可加入 QQ 群交流： 604710815
+
