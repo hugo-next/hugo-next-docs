@@ -6,13 +6,12 @@ lastmod: 2022-06-03T16:43:23+08:00
 date: 2022-06-02T11:52:03+08:00
 
 categories:
- - 博客
+ - 示例
 tags:
  - Hugo
  - 开始
 
-url: post/hello-world.html
-weight: 2
+url: demo/hello-world.html
 ---
 
 > “使用 `weight` 关键字置顶文章。”

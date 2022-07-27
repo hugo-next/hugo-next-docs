@@ -16,8 +16,7 @@ tags:
  - 语法
 
 toc: false
-draft: false
-url: post/markdown-syntax.html
+url: demo/markdown-syntax.html
 ---
 
 仅以此篇文章来测试下在 `NexT` 主题中在通过 `Hugo` 引擎来建站时，是否支持 `Markdown` 文件内容中所写的各种语法，并展示下实际的效果。
@@ -165,8 +164,6 @@ url: post/markdown-syntax.html
 
 ## Code
 
-直接使用 Markdwon 的代码块来标识代码内容，效果如下：
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -179,8 +176,6 @@ url: post/markdown-syntax.html
 </body>
 </html>
 ```
-
-使用 Hugo 自身的 `highlight` 短代码标签来标识代码内容，效果如下：
 
 {{< highlight html >}}
 <!DOCTYPE html>
