@@ -902,7 +902,7 @@ params:
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: true
+    enable: false
     appId: "#{Algolia_AppId}"
     apiKey: "#{Algolia_ApiKey}"
     indexName: "#{Algolia_IndexName}"
@@ -914,7 +914,7 @@ params:
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: false
+    enable: true
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.xml
