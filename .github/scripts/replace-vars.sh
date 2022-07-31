@@ -4,6 +4,9 @@ echo -e "Start replace all runtime variables."
 
 sed -i '
 s/#{Add_This_Id}/'$ADD_THIS_ID'/g
+s/#{Algolia_ApiKey}/'$ALGOLIA_APIKEY'/g
+s/#{Algolia_AppId}/'$ALGOLIA_APPID'/g
+s/#{Algolia_IndexName}/'$ALGOLIA_INDEXNAME'/g
 s/#{Analytics_La_Id}/'$ANALYTICS_LA_ID'/g
 s|#{Giscus_CategoryId}|'$GISCUS_CATEGORYID'|g
 s|#{Giscus_Category}|'$GISCUS_CATEGORY'|g

@@ -895,15 +895,17 @@ params:
 
 
   # ---------------------------------------------------------------
-  # TODO
-  # 内容搜索服务（暂时未实现）
+  # 内容搜索服务
   # Search Services
   # ---------------------------------------------------------------
 
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: false
+    enable: true
+    appId: "#{Algolia_AppId}"
+    apiKey: "#{Algolia_ApiKey}"
+    indexName: "#{Algolia_IndexName}"
     hits:
       perPage: 10
 
@@ -912,7 +914,7 @@ params:
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: true
+    enable: false
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.xml

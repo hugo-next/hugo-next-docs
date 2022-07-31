@@ -29,6 +29,9 @@ jobs:
       - name: Setting variable
         env:
           ADD_THIS_ID: ${{ secrets.ADD_THIS_ID }}
+          ALGOLIA_APIKEY: ${{ secrets.ALGOLIA_APIKEY }}
+          ALGOLIA_APPID: ${{ secrets.ALGOLIA_APPID }}
+          ALGOLIA_INDEXNAME: ${{ secrets.ALGOLIA_INDEXNAME }}
           ANALYTICS_LA_ID: ${{ secrets.ANALYTICS_LA_ID }}
           GISCUS_CATEGORY: ${{ secrets.GISCUS_CATEGORY }}
           GISCUS_CATEGORYID: ${{ secrets.GISCUS_CATEGORYID }}
