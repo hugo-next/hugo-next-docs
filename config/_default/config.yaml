@@ -12,7 +12,7 @@
 
 # 站点域名，比如： https://hugo-next.eu.org
 # Website domain, eg: https://hugo-next.eu.org
-baseURL: /
+baseURL: https://hugo-next.eu.org
 canonifyURLs: true
 # 站点标题
 # Website title
@@ -66,9 +66,16 @@ outputFormats:
     baseName: "searchindexes"
     isPlainText: true
     notAlternative: true
+  # 生成 Algolia 索引文件
+  # Build indexes of Aloglia
+  AlgoliaIndexes:
+    mediaType: application/json
+    baseName: algolia
+    isPlainText: true
+    notAlternative: true
 
 outputs:
-  home: ["HTML", "RSS", "SearchIndexes"]
+  home: ["HTML", "RSS", "AlgoliaIndexes"]
 
 minify:
   minifyOutput: true
@@ -902,7 +909,7 @@ params:
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: false
+    enable: true
     appId: "#{Algolia_AppId}"
     apiKey: "#{Algolia_ApiKey}"
     indexName: "#{Algolia_IndexName}"
@@ -914,7 +921,7 @@ params:
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: true
+    enable: false
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.xml
