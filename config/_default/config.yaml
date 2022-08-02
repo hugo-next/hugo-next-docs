@@ -75,7 +75,7 @@ outputFormats:
     notAlternative: true
 
 outputs:
-  home: ["HTML", "RSS", "AlgoliaIndexes"]
+  home: ["HTML", "RSS"]
 
 minify:
   minifyOutput: true
