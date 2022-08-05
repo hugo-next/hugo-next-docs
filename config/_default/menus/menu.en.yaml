@@ -19,8 +19,13 @@ main:
     pageref: /archives
     pre: archive
     weight: 4
+  - identifier: flinks
+    name: Friend Links
+    pageref: /flinks.html
+    pre: people-pulling
+    weight: 5
   - identifier: commonweal
     name: Commonweal 404
     url: /404.html
     pre: heartbeat
-    weight: 5
+    weight: 6

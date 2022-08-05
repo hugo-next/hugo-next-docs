@@ -19,8 +19,13 @@ main:
     pageref: /archives
     pre: archive
     weight: 4
+  - identifier: flinks
+    name: 友情链接
+    pageref: /flinks.html
+    pre: people-pulling
+    weight: 5
   - identifier: commonweal
     name: 公益 404
     url: /404.html
     pre: heartbeat
-    weight: 5
+    weight: 6
