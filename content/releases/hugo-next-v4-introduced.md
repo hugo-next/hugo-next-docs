@@ -14,6 +14,7 @@ tags:
   - 介绍
 
 url: hugo-next-v4-introduced.html
+toc: true
 weight: 2
 ---
 
@@ -25,9 +26,13 @@ weight: 2
 
 Hugo 版本的 `NexT` 主题最早的话应该是由[兰陵子](http://lanlingzi.cn/)提供的，发布时间可追溯到 2016 年，先期我个人的博客主题也是采用了他的版本，并在此原有基础上进行相关的优化与完善（开源后也受到不少用户的关注），可以参考之前的记录分享：
 
-> - [优化Hugo Next主题的过程](https://lisenhui.cn/2020/10/02/make-next-theme-pithy.html)
->
-> - [优化Hugo Next主题的过程2](https://lisenhui.cn/2021/07/09/make-next-theme-pithy2.html)
+{{< note success >}}
+
+ - [优化Hugo Next主题的过程](https://lisenhui.cn/2020/10/02/make-next-theme-pithy.html)
+
+ - [优化Hugo Next主题的过程2](https://lisenhui.cn/2021/07/09/make-next-theme-pithy2.html)
+
+{{< /note >}}
 
 就个人而言还是比较喜欢 `NexT` 主题的风格，可随着使用的深入发现该主题在兼容性及显示效果上并不友好，本来想着继续优化下去，但原来的框架还是基于较旧的 Hugo 版本，另外也浏览了下最新版本的 Hexo NexT 主题，显示效果上的差距还是比较大。
 
@@ -71,8 +76,12 @@ Hugo 版本的 `NexT` 主题最早的话应该是由[兰陵子](http://lanlingzi
 
 历时近 2 个月的时间现已完成 `NexT` 主题的大部分设计及功能移植，余下的功能会在后续版本逐步完善并持续的迭代发布：
 
-1. 完善好未完成的基础功能
+{{< note info >}}
+
+1. 持续完善好其他细节的功能
 2. 优化站点生成效率的性能
 3. 撰写主题的用户使用手册
+
+{{< /note >}}
 
 感谢大家关注，也欢迎参与主题的开发或维护！ :heart:

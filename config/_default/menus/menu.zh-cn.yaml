@@ -14,18 +14,23 @@ main:
     pageref: /demo
     pre: democrat
     weight: 3
+  - identifier: releases
+    name: 发版记录
+    pageref: /releases
+    pre: flag
+    weight: 4
   - identifier: archives
     name: 归档
     pageref: /archives
     pre: archive
-    weight: 4
+    weight: 5
   - identifier: flinks
     name: 友情链接
     pageref: /flinks.html
     pre: people-pulling
-    weight: 5
+    weight: 6
   - identifier: commonweal
     name: 公益 404
     url: /404.html
     pre: heartbeat
-    weight: 6
+    weight: 7

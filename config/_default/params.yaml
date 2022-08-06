@@ -6,7 +6,7 @@
 # 需要显示文章的部分，即content目录下的文件夹名称
 # Sections for show in home & archive page 
 # and it's forlder name which under content
-mainSections: ["posts", "demo"]
+mainSections: ["releases", "demo"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
