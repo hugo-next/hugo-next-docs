@@ -15,6 +15,6 @@ s|#{Giscus_Repo}|'$GISCUS_REPO'|g
 s/#{Uter_Label}/'$UTER_LABEL'/g
 s|#{Uter_Repo_Name}|'$UTER_REPO_NAME'|g
 s|#{Waline_Server_URL}|'$WALINE_SERVER_URL'|g
-' config/_default/config.yaml
+' config/_default/params.yaml
 
 echo -e "Replace variables success."
