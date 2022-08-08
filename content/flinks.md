@@ -9,7 +9,7 @@ url: flinks.html
 ```yaml
 - name: NexT 主题
   desc: 保持简单的易用性和强大的功能。 # 支持HTML代码
-  image: https://hugo-next.eu.org/imgs/hugo_next_avatar.png
+  avatar: https://hugo-next.eu.org/imgs/hugo_next_avatar.png
   link: https://hugo-next.eu.org
 ```
 
