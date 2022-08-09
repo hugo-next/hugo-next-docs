@@ -14,7 +14,7 @@ tags:
 url: demo/shortcodes.html
 ---
 
-虽然 `Markdown` 语法已经非常丰富能够满足我们写文章的绝大部分需求，但是为更好的对文章内容进行更友好的排版，为引设计一套自定义的短语，便于在使用时能够快速引用。
+虽然 `Markdown` 语法已经非常丰富能够满足我们写文章的绝大部分需求，但是为更好的对文章内容进行更友好的排版，为此设计了一套自定义的短语，便于在使用时能够快速引用。
 
 <!--more-->
 
@@ -44,16 +44,26 @@ url: demo/shortcodes.html
 
 # 信息块
 
-支持 `default`，`info`，`success`，`warning`，`danger` 等五种不同效果的信息块展示，语法参考如下：
+支持 `default`，`info`，`success`，`warning`，`danger` 等五种不同效果的展示，语法参考如下：
 
 ```markdown
-{{</* note [class] */>}}
+{{</* note [class] [no-icon] */>}}
   书写表达的信息
   支持 Markdown 语法
 {{</* /note */>}}
 ```
 
 实际效果：
+
+{{< note default no-icon >}}
+  ### Default Header without icon
+  **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
+{{< /note >}}
+
+{{< note default >}}
+  ### Default Header
+  **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
+{{< /note >}}
 
 {{< note info >}}
   ### Info Header
