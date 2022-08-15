@@ -6,7 +6,6 @@ description: Stay easily & powerful.
 keywords: Hugo,NexT,Theme,easily,powerful
 
 linksSets:
-  icon: fa fa-globe
   title: Friends
   
 footer:
@@ -23,11 +22,4 @@ githubBanner:
   title: Give stars
 
 waline:
-  enable: true
-  pageView: true
-  emoji: false
-  imgUploader: false
-  wordLimit: 200
-  requiredMeta: ['nick', 'mail']
-  serverURL: "#{Waline_Server_URL}"
   placeholder: "Please leave your E-mail make me connect with you."
