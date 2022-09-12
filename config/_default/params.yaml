@@ -650,7 +650,7 @@ comments:
 # Waline comments system
 # More info seee: https://waline.js.org/
 waline:
-  pageView: true
+  pageView: '#waline-pageview-count'
   placeholder: "请文明发言，谢谢！"
   emoji: false
   imgUploader: false
