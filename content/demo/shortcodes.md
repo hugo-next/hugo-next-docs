@@ -18,13 +18,13 @@ url: demo/shortcodes.html
 
 <!--more-->
 
-# 块引用
+## 块引用
 
 在引用一些经典名言名句时，可以采用此短语，语法参考如下：
 
 ```markdown
 {{</* quote */>}}
-  ### block quote
+  #### block quote
   写下你想表达的话语！
 {{</* /quote */>}}
 ```
@@ -42,7 +42,7 @@ url: demo/shortcodes.html
 
 {{< /quote >}}
 
-# 信息块
+## 信息块
 
 支持 `default`，`info`，`success`，`warning`，`danger` 等五种不同效果的展示，语法参考如下：
 
@@ -56,31 +56,31 @@ url: demo/shortcodes.html
 实际效果：
 
 {{< note default no-icon >}}
-  ### Default Header without icon
+  #### Default Header without icon
   **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
 {{< /note >}}
 
 {{< note default >}}
-  ### Default Header
+  #### Default Header
   **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
 {{< /note >}}
 
 {{< note info >}}
-  ### Info Header
+  #### Info Header
   **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
 {{< /note >}}
 
 {{< note success >}}
-  ### Success Header
+  #### Success Header
   **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
 {{< /note >}}
 
 {{< note warning >}}
-  ### Warning Header
+  #### Warning Header
   **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
 {{< /note >}}
 
 {{< note danger >}}
-  ### Danger Header
+  #### Danger Header
   **Welcome** to [Hugo NexT!](https://preview.hugo-next.eu.org)
 {{< /note >}}

@@ -1,0 +1,16 @@
+<div id="lamp-wrapper">
+  <div id="move-lamp">
+    <p>请注意！这是预览版本哦 \^o^/ </p>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function moveFun() {
+    var info = document.querySelector('#move-lamp p');
+    info.innerHTML = info.innerHTML.substr(1) + info.innerHTML[0];
+  }
+
+  window.onload = function() {
+    setInterval(moveFun, 600);
+  }
+</script>

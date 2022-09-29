@@ -45,6 +45,13 @@ favicon:
 # Custom Logo (Warning: Only support scheme Mist)
 customLogo: #/imgs/hugo_next_logo.png
 
+# 用户自定义文件配置
+# Define custom file paths.
+customFilePath:
+  sidebar: sidebar/custom_sidebar.html
+  #footer: custom_footer.html
+  style: /css/custom_style.css
+
 # 知识共享国际许可 4.0
 # 更多信息： https://creativecommons.org/about/cclicenses/
 # Creative Commons 4.0 International License.
@@ -206,7 +213,7 @@ links:
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:
-  enable: true
+  enable: false
   # 自动设置列表的数字
   # Automatically add list number to toc.
   number: true
@@ -228,6 +235,10 @@ toc:
 # Footer Settings
 # ---------------------------------------------------------------
 footer:
+  # 启动谷歌翻译功能
+  # Enable google translate in footer
+  translate: true
+
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
