@@ -137,7 +137,18 @@ avatar:
 
 # 是否在侧边栏显示文章、分类、标签信息
 # Posts / Categories / Tags in sidebar.
-siteState: true
+siteState: 
+  # 是否在侧边栏显示文章、分类、标签信息
+  # Posts / Categories / Tags in sidebar.
+  basic: true
+  # 站点访问信息
+  # Site information
+  statistic: 
+    enable: true
+    # 组件类型，可选值为： 51la, busuanzi
+    # 使用51la时需要注册账号：https://invite.51.la/1NUfGTS1?target=V6
+    # Plguin value is: 51la, busuzazi
+    plugin: busuanzi
 
 # 社交链接地址
 # 用法： `Key: 名称 || 链接地址 || 图标`
@@ -555,27 +566,11 @@ baiduSiteVerification: #<verify_code>
 # Third Party Plugins & Services Settings
 # ---------------------------------------------------------------
 
-# TODO
-# 数学公式渲染支持（暂时未实现）
-# Math Formulas Render Support
-# Warning: Please install / uninstall the relevant renderer according to the documentation.
-# See: https://theme-next.js.org/docs/third-party-services/math-equations
-# Server-side plugin: https://github.com/next-theme/hexo-filter-mathjax
-math:
-  # Default (false) will load mathjax / katex script on demand.
-  # That is it only render those page which has `mathjax: true` in front-matter.
-  # If you set it to true, it will load mathjax / katex script EVERY PAGE.
-  every_page: false
-
-  mathjax:
-    enable: false
-    # Available values: none | ams | all
-    tags: none
-
-  katex:
-    enable: false
-    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-    copy_tex: false
+# 数学公式渲染支持，可选值： mathjax, katex
+  # 注意这里全局配置，意味着所有页面都会加载数学公式脚本
+  # Math Formulas Render Support, options: mathjax, katex
+  # Warning: It's global settings then will load scripts in every page.
+  #math: mathjax
 
 # TODO
 # FancyBox is a tool that offers a nice and elegant way 
