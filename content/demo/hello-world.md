@@ -12,6 +12,7 @@ tags:
  - 开始
 
 url: demo/hello-world.html
+toc: true
 ---
 
 > “使用 `weight` 关键字置顶文章。”
