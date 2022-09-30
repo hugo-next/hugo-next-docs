@@ -7,18 +7,14 @@ date: 2022-08-15T22:33:15+08:00
 lastmod: 2022-08-15T22:33:15+08:00
 
 categories:
-  -
-tags:
-  -
-  -
-categories:
   - 发布
+
 tags:
   - 发布
-  - 4.1.x
+  - 4.2.x
 
 expand: true
-url: hugo-next-v4-2-0-release.html
+url: hugo-next-4-2-0-release.html
 ---
 
 此次版本发布共提交 30 余处按照路线图增加些新功能，同时修复了些 BUG，参考如下：
