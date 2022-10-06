@@ -213,7 +213,7 @@ links:
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:
-  enable: false
+  enable: true
   # 自动设置列表的数字
   # Automatically add list number to toc.
   number: true

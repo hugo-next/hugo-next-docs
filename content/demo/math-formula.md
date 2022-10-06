@@ -4,7 +4,7 @@ description: "主题支持mathjs和katex两种不同插件的数学公式渲染�
 keywords: "math,formula"
 
 date: 2022-09-11T10:16:02+08:00
-lastmod: 2022-09-11T10:16:02+08:00
+lastmod: 2022-10-06T12:12:04+08:00
 
 categories:
   - 示例
@@ -14,7 +14,7 @@ tags:
   - katex
 
 
-url: "demo/math-formula.html"
+url: demo/math-formula.html
 math: mathjax
 ---
 
@@ -34,22 +34,22 @@ math: mathjax
 
 **注意：** 使用[支持的TeX功能](https://docs.mathjax.org/en/latest/input/tex/index.html)的联机参考资料。
 
-### 例子
+## 例子
 
 
-## 重复的分数
+### 重复的分数
 $$
 \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
 $$
 
 
-## 总和记号
+### 总和记号
 $$
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
 
-## 几何级数之和
+### 几何级数之和
 我把接下来的两个例子分成了几行，这样它在手机上表现得更好。这就是为什么它们包含 `\displaystyle`。
 
 $$
@@ -76,24 +76,24 @@ $$
 \displaystyle= \frac{(k+1)((k+1)+1)}{2}
 $$
 
-## 乘记号
+### 乘记号
 $$
 \displaystyle 1 + \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \displaystyle \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \displaystyle\text{ for }\lvert q\rvert < 1.
 $$
 
 
-## 随文数式
+### 随文数式
 这是一些线性数学: $$ k_{n+1} = n^2 + k_n^2 - k_{n-1} $$ ， 然后是更多的文本。
 
 
-## 希腊字母
+### 希腊字母
 $$
 \Gamma\ \Delta\ \Theta\ \Lambda\ \Xi\ \Pi\ \Sigma\ \Upsilon\ \Phi\ \Psi\ \Omega
 \alpha\ \beta\ \gamma\ \delta\ \epsilon\ \zeta\ \eta\ \theta\ \iota\ \kappa\ \lambda\ \mu\ \nu\ \xi \ \omicron\ \pi\ \rho\ \sigma\ \tau\ \upsilon\ \phi\ \chi\ \psi\ \omega\ \varepsilon\ \vartheta\ \varpi\ \varrho\ \varsigma\ \varphi
 $$
 
 
-## 箭头
+### 箭头
 $$
 \gets\ \to\ \leftarrow\ \rightarrow\ \uparrow\ \Uparrow\ \downarrow\ \Downarrow\ \updownarrow\ \Updownarrow
 $$
@@ -122,7 +122,7 @@ $$
 $$
 
 
-## 微积分学
+### 微积分学
 $$
 \int u \frac{dv}{dx}\,dx=uv-\int \frac{du}{dx}v\,dx
 $$
@@ -136,13 +136,13 @@ $$
 $$
 
 
-## 洛伦茨方程
+### 洛伦茨方程
 $$
 \begin{aligned} \dot{x} & = \sigma(y-x) \\\\ \dot{y} & = \rho x - y - xz \\\\ \dot{z} & = -\beta z + xy \end{aligned}
 $$
 
 
-## 交叉乘积
+### 交叉乘积
 这在KaTeX中是可行的，但在这种环境中馏分的分离不是很好。
 
 $$
@@ -162,25 +162,25 @@ $$
 $$
 
 
-## 有弹性的括号
+### 有弹性的括号
 $$
 \left(\frac{x^2}{y^3}\right)
 $$
 
 
-## 评估范围
+### 评估范围
 $$
 \left.\frac{x^3}{3}\right|_0^1
 $$
 
 
-## 诊断标准
+### 诊断标准
 $$
 f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\\\ 3n+1, & \text{if } n\text{ is odd} \end{cases}
 $$
 
 
-## 麦克斯韦方程组
+### 麦克斯韦方程组
 $$
 \begin{aligned} \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\\\ \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\\\ \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\\\ \nabla \cdot \vec{\mathbf{B}} & = 0 \end{aligned}
 $$
@@ -194,19 +194,19 @@ $$
 {n \choose k}
 $$
 
-## 分数在分数
+### 分数在分数
 $$
 \frac{\frac{1}{x}+\frac{1}{y}}{y-z}
 $$
 
 
-## ｎ次方根
+### ｎ次方根
 $$
 \sqrt[n]{1+x+x^2+x^3+\ldots}
 $$
 
 
-## 矩阵
+### 矩阵
 $$
 \begin{pmatrix} a_{11} & a_{12} & a_{13}\\\\ a_{21} & a_{22} & a_{23}\\\\ a_{31} & a_{32} & a_{33} \end{pmatrix}
 \begin{bmatrix} 0 & \cdots & 0 \\\\ \vdots & \ddots & \vdots \\\\ 0 & \cdots & 0 \end{bmatrix}
