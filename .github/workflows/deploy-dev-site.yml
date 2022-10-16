@@ -45,7 +45,6 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.100.1'
           extended: true
 
       - name: Build Demo Sites
@@ -60,6 +59,14 @@ jobs:
               cp README.md README.zh.md ./public
               cp LICENSE ./public
               cp vercel.json ./public
+
+      - name: Upload Algolia Indexes 
+        uses: iChochy/Algolia-Upload-Records@main
+        env:
+          APPLICATION_ID: ${{ secrets.ALGOLIA_APPID }}
+          ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMINKEY }}
+          INDEX_NAME: ${{ secrets.ALGOLIA_INDEXNAME }}
+          FILE_PATH: "public/algolia.json"
 
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
