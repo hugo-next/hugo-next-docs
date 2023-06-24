@@ -6,8 +6,6 @@ keywords: "打赏"
 date: 2022-09-30T20:07:37+08:00
 lastmod: 2022-09-30T20:07:37+08:00
 
-categories:
-  - 支持
 tags:
   - 捐赠
   - 支持

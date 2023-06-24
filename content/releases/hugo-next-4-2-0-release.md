@@ -8,6 +8,7 @@ lastmod: 2022-08-15T22:33:15+08:00
 
 categories:
   - 发布
+  - 4.2.x
 
 tags:
   - 发布

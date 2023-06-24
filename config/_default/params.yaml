@@ -320,14 +320,20 @@ readMoreBtn: true
 # 开启文章头部元素显示
 # Post meta display settings
 postMeta:
-  itemText: true
-  created: true
-  updated:
-    enable: true
-    anotherDay: true
-  categories: true
-  wordCount: true
-  readTime: true
+    itemText: true
+    created: true
+    updated:
+      enable: true
+      anotherDay: true
+    categories: true
+    wordCount: true
+    readTime: true
+    comments: 
+      enable: true
+      plugin: waline
+    views:
+      enable: true
+      plugin: waline
 
 # 文章底部的设置
 # Post footer settings
