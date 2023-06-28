@@ -667,16 +667,14 @@ comments:
 # Waline comments system
 # More info seee: https://waline.js.org/
 waline:
-  pageView: true
-  comment: true
-  placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
+  placeholder: "请文明发言哟 ヾ(≧▽≦*)o \n\n可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄\n(Window系统：Win+.，Mac系统：Control+Command+Space)"
   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
   emoji: false
   imgUploader: false
   wordLimit: 200
   requiredMeta: ['nick', 'mail']
   reaction: true
-  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
+  reactionText: ['点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
   reactionTitle: "你认为这篇文章怎么样？"
   serverURL: "#{Waline_Server_URL}"
 
@@ -794,7 +792,6 @@ analytics:
   # busuanzi:
   #   visitorsIcon: fa fa-user
   #   viewsIcon: fa fa-eye
-  #   postViews: false
 
 
 # ---------------------------------------------------------------
@@ -811,6 +808,7 @@ algoliaSearch:
   indexName: "#{Algolia_IndexName}"
   hits:
     perPage: 10
+  limit: 1000
 
 # 本地搜索
 # Local Search
@@ -834,6 +832,7 @@ localSearch:
   # 页面加载时是否要重新载入索引文件
   # Preload the search data when the page loads.
   preload: false
+  limit: 1000
 
 
 # ---------------------------------------------------------------
