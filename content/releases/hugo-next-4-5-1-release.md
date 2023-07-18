@@ -1,5 +1,5 @@
 ---
-title: "Hugo Next 4.5.1 Release"
+title: "Hugo Next 4.5.1 Release(HotFixed)"
 description: "Hugo Next 4.5.1 正式发布公告通知。"
 keywords: "Hugo,NexT,theme"
 
