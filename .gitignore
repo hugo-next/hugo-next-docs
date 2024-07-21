@@ -3,6 +3,7 @@
 # Local development configuration files
 config.*.yaml
 config/development
+dev-startup.sh
 
 # Hugo build lock file
 .hugo_build.lock
