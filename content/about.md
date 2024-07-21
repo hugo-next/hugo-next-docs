@@ -23,15 +23,15 @@ url: about.html
 
 ## 主体的
 
-<img src="https://lisenhui.gitee.io/imgs/hugo-next/logo/hugo-next-primary.png" width="40%" alt="Primary Logo" />
+<img src="/imgs/logo/hugo-next-primary.png" width="40%" alt="Primary Logo" />
 
 ## 第二主体
 
-<img src="https://lisenhui.gitee.io/imgs/hugo-next/logo/hugo-next-secondary.png" width="30%" alt="Secondary Logo" />
+<img src="/imgs/logo/hugo-next-secondary.png" width="30%" alt="Secondary Logo" />
 
 ## 字符象征
 
-<img src="https://lisenhui.gitee.io/imgs/hugo-next/logo/hugo-next-symbol.png" width="20%" alt="Symbol Logo" />
+<img src="/imgs/logo/hugo-next-symbol.png" width="20%" alt="Symbol Logo" />
 
 # 使用反馈
 
