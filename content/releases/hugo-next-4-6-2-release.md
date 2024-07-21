@@ -40,14 +40,14 @@ vendors:
 ```
 - 修复有关于图像浏览器在非文章页面的加载失败错误
 - 增加有关于图像浏览器的使用效果示例文章
-- 尝试修复文章二级分类统计问题，感谢@[hxhue](https://github.com/hxhue)贡献的代码
-- 修复用户自定义文件的内容描述问题，感谢@[X-Zero-L](https://github.com/X-Zero-L)贡献的代码
-- 强化SEO有关于文章描述内容的检索，感谢@[YumiLee](https://github.com/YumiLee)贡献的代码
-- 增加Golang代码模块引入的支持，感谢@[WaterLemons2k](https://github.com/WaterLemons2k)贡献的代码
-- 修复文章分类与标签的相对路径访问缺失"/"问题，感谢@[YumiLee](https://github.com/YumiLee)贡献的代码
-- 修复代码块复制产生多余空行的问题，感谢@[sxz799](https://github.com/sxz799)贡献的代码
-- 新增加了法语语言支持，感谢@[ThomasL](https://github.com/ThomasL)贡献的代码
+- 尝试修复文章二级分类统计问题，感谢[@hxhue](https://github.com/hxhue)贡献的代码
+- 修复用户自定义文件的内容描述问题，感谢[@X-Zero-L](https://github.com/X-Zero-L)贡献的代码
+- 强化SEO有关于文章描述内容的检索，感谢[@YumiLee](https://github.com/YumiLee)贡献的代码
+- 增加Golang代码模块引入的支持，感谢[@WaterLemons2k](https://github.com/WaterLemons2k)贡献的代码
+- 修复文章分类与标签的相对路径访问缺失"/"问题，感谢[@YumiLee](https://github.com/YumiLee)贡献的代码
+- 修复代码块复制产生多余空行的问题，感谢[@sxz799](https://github.com/sxz799)贡献的代码
+- 新增加了法语语言支持，感谢[@ThomasL](https://github.com/ThomasL)贡献的代码
 
- > 因个人的时间原因此次发版直接跳过4.5.4，4.6.0，4.6.1的3个版本，同时此次也有不少新的小伙伴加入，感谢@[WaterLemons2k](https://github.com/WaterLemons2k)，@[YumiLee](https://github.com/YumiLee)，@[ThomasL](https://github.com/ThomasL)，@[X-Zero-L](https://github.com/X-Zero-L)，@[hxhue](https://github.com/hxhue)，@[sxz799](https://github.com/sxz799)，在此非常感感谢他们贡献的代码，也期待更多小伙伴们的加入，谢谢。
+ > 因个人的时间原因此次发版直接跳过4.5.4，4.6.0，4.6.1的3个版本，同时此次也有不少新的小伙伴加入，感谢[@WaterLemons2k](https://github.com/WaterLemons2k)，[@YumiLee](https://github.com/YumiLee)，[@ThomasL](https://github.com/ThomasL)，[@X-Zero-L](https://github.com/X-Zero-L)，[@hxhue](https://github.com/hxhue)，[@sxz799](https://github.com/sxz799)，在此非常感感谢他们贡献的代码，也期待更多小伙伴们的加入，谢谢。
 
 欢迎大家使用和反馈，祝你好运！！！:tada: :tada: :tada:
