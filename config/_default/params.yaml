@@ -297,6 +297,11 @@ footer:
           url: /imgs/vendors/upyun.png
           width: 43
         link: https://upyun.com
+      - name: Github
+        link: https://github.com
+        image:
+          url: /imgs/vendors/github.svg
+          width: 14
 
 
 # ---------------------------------------------------------------
