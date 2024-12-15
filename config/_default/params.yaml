@@ -10,9 +10,9 @@ mainSections: ["releases", "demo"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
-monthFormat: "01-02"
-dateFormat: "2006-01-02"
-timeFormat: "2006-01-02T15:04:05-07:00"
+monthFormat: "01月02日"
+dateFormat: "2006年01月02日"
+timeFormat: "2006年01月02日 15:04:05 CST"
 
 # 页面模式
 # Schemes
