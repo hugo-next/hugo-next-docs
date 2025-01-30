@@ -1,0 +1,41 @@
+main:
+  - identifier: home
+    name: Home
+    pageRef: /
+    pre: home
+    weight: 1
+  - identifier: about
+    name: About
+    pageRef: /about
+    pre: user
+    weight: 2
+  - identifier: donation
+    name: Donation
+    pageRef: /donation
+    pre: hand-holding-dollar
+    weight: 3
+  - identifier: democrat
+    name: Demo
+    pageRef: /demo
+    pre: democrat
+    weight: 4
+  - identifier: releases
+    name: Releases
+    pageRef: /releases
+    pre: flag
+    weight: 5
+  - identifier: archives
+    name: Archives
+    pageRef: /archives
+    pre: archive
+    weight: 6
+  - identifier: flinks
+    name: Friend's Link
+    pageRef: /flinks
+    pre: people-pulling
+    weight: 7
+  - identifier: commonweal
+    name: Commonweal404
+    url: /404.html
+    pre: heartbeat
+    weight: 8

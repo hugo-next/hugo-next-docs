@@ -1,0 +1,32 @@
+# Parameters for English version
+
+yearFormat: "2006"
+monthFormat: "01/02"
+dateFormat: "2006/01/02"
+timeFormat: "2006/01/02 15:04:05 -07:00"
+
+author: Theme NexT
+subtitle: Theme for Hugo
+description: Stay easily & powerful.
+keywords: Hugo,NexT,Theme,easily,powerful
+
+linksSets:
+  title: Friends
+  
+footer:
+  vendors:
+    title: Supports CDN & Cloud Resource
+  beian:
+    enable: false
+
+postFooter:
+  endLineTip: "~ End of this post ~"
+
+rewardSets:
+  comment: '<i class="fa-solid fa-mug-hot"></i>  How about you buy me a coffee?ヾ(^▽^*)))'
+
+githubBanner:
+  title: Give stars
+
+waline:
+  placeholder: "Please leave your E-mail make me connect with you."
