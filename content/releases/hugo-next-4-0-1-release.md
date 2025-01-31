@@ -1,6 +1,6 @@
 ---
-title: "Hugo Next 4.0.1 Release(HotFixed)"
-description: "Hugo Next 4.0.1 正式发布公告通知。"
+title: "Hugo NexT 4.0.1 Release(HotFixed)"
+description: "Hugo NexT 4.0.1 正式发布公告通知。"
 keywords: "Hugo,NexT,theme"
 
 date: 2022-07-05T16:49:19+08:00
@@ -15,7 +15,7 @@ tags:
   - 4.0.x
 
 expand: true
-url: hugo-next-4-0-1-release.html
+url: release/hugo-next-4-0-1-release.html
 ---
 
 此次发布是个 hotfix 版本，修复了些较为紧急的 BUG，参考如下：

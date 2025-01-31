@@ -1,6 +1,6 @@
 ---
-title: "Hugo Next 4.6.3 Release(HotFixed)"
-description: "Hugo Next 4.6.3 正式发布公告通知。"
+title: "Hugo NexT 4.6.3 Release(HotFixed)"
+description: "Hugo NexT 4.6.3 正式发布公告通知。"
 keywords: "Hugo,NexT,theme"
 
 date: 2024-07-22T22:34:21+08:00
@@ -16,7 +16,7 @@ tags:
   - 4.6.x
 
 expand: true
-url: hugo-next-4-6-3-release.html
+url: release/hugo-next-4-6-3-release.html
 ---
 
 此次紧急修复版本，主要是为解决如下问题：

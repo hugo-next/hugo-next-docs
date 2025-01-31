@@ -13,7 +13,7 @@ tags:
   - NexT
   - 介绍
 
-url: hugo-next-v4-introduced.html
+url: release/hugo-next-v4-introduced.html
 toc: true
 weight: 2
 ---
@@ -28,9 +28,9 @@ Hugo 版本的 `NexT` 主题最早的话应该是由[兰陵子](http://lanlingzi
 
 {{< note success >}}
 
- - [优化Hugo Next主题的过程](https://lisenhui.cn/2020/10/02/make-next-theme-pithy.html)
+ - [优化Hugo NexT主题的过程](https://lisenhui.cn/2020/10/02/make-next-theme-pithy.html)
 
- - [优化Hugo Next主题的过程2](https://lisenhui.cn/2021/07/09/make-next-theme-pithy2.html)
+ - [优化Hugo NexT主题的过程2](https://lisenhui.cn/2021/07/09/make-next-theme-pithy2.html)
 
 {{< /note >}}
 
@@ -38,7 +38,7 @@ Hugo 版本的 `NexT` 主题最早的话应该是由[兰陵子](http://lanlingzi
 
 于是便萌生了重构建并全新移植 Hexo NexT 主题的想法，恰逢是遇到上海疫情爆发的时候，在家办公的压抑情绪让自己也想找些事情来做，因此着手了相关的计划准备，整理下发现要做的事情也还真不少，所以使用思维导图记录下来。
 
-![新版NexT计划](/imgs/hugo-next-rebuild-plan.png)
+![新版NexT计划](/imgs/release/hugo-next-rebuild-plan.png)
 
 中间经历过 2 个多月断断续续时间里，总算是完成主体功能所有移植工作，其实一直想有人参与进来共建，曾直接跑到人家 `Hexo NexT` 用户群“呼喊”，但也是没能激起浪花，所以只好暂时是自己继续独立前行。 :joy:
 

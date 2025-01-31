@@ -18,7 +18,7 @@ extlink: https://github.com/hugo-next/hugo-theme-next/
 comment:
  enable: false
 toc: false
-url: hugo-next-organization.html
+url: release/hugo-next-organization.html
 weight: 1
 ---
 

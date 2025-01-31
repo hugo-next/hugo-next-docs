@@ -13,7 +13,7 @@ tags:
   - NexT
   - Introduction
 
-url: hugo-next-v4-introduced.html
+url: release/hugo-next-v4-introduced.html
 toc: true
 weight: 2
 ---
@@ -28,9 +28,9 @@ The earliest version of the `NexT` theme for Hugo should have been created by [L
 
 {{< note success >}}
 
-- [Process of Optimizing Hugo Next Theme](https://lisenhui.cn/2020/10/02/make-next-theme-pithy.html)
+- [Process of Optimizing Hugo NexT Theme](https://lisenhui.cn/2020/10/02/make-next-theme-pithy.html)
 
-- [Process of Optimizing Hugo Next Theme 2](https://lisenhui.cn/2021/07/09/make-next-theme-pithy2.html)
+- [Process of Optimizing Hugo NexT Theme 2](https://lisenhui.cn/2021/07/09/make-next-theme-pithy2.html)
 
 {{< /note >}}
 
@@ -38,7 +38,7 @@ Personally, I still prefer the style of the `NexT` theme. However, as I delved d
 
 So the idea of refactoring and transplanting the Hexo NexT theme emerged. It happened to be during the outbreak of the Shanghai epidemic, and the suppressed emotions of working from home made me want to find something to do. Therefore, I started planning and preparing, and after organizing, I found that there were still many things to do, so I used a mind map to record them.
 
-![New NexT Plan](/imgs/hugo-next-rebuild-plan.png)
+![New NexT Plan](/imgs/release/hugo-next-rebuild-plan.png)
 
 After more than two months of intermittent time, I finally completed the porting of all the main functions. In fact, I have always wanted someone to participate in the co construction. I once went directly to the Hexo NexT user group to "shout", but it did not stir up any waves, so I had to continue to move forward independently for the time being joy:
 
