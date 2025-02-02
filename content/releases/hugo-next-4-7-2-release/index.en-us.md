@@ -13,7 +13,7 @@ tags:
   - 4.7.x
 
 expand: true
-url: release/hugo-next-4-7-1-release.html
+url: release/hugo-next-4-7-2-release.html
 ---
 
 This version release includes over **60** new features added according to the roadmap, as well as bug fixes. For details, see below:
