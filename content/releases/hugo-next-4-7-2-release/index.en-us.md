@@ -27,6 +27,7 @@ This version release includes over **60** new features added according to the ro
 - Support displaying secondary navigation menus in `Gemini` and `Pisces` modes
 - Support for GitHub-style alert effects
 - Support for anchor effect when jumping to subsequent content with the "Read More" button
+- Support Waline3 comment system
 
 ## :bug: Bug Fixes
 
@@ -45,3 +46,6 @@ This version release includes over **60** new features added according to the ro
 - Other code iteration optimizations for Hugo version upgrades
 
 We welcome everyone to use and provide feedback. Good luck!!! :tada: :tada: :tada:
+
+> [!NOTE]
+> More detail info Ref：[HugoNexT4.7.2 new features & upgrade](https://lisenhui.cn/blog/hugo-next-v472-features-and-tips.html)

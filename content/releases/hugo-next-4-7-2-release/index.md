@@ -27,6 +27,8 @@ url: release/hugo-next-4-7-1-release.html
 - 支持在`Gemini`和`Pisces`模式下显示二级导航菜单
 - 支持类似Github风格的告警效果
 - 支持阅读更多按钮时跳转时锚定后续内容的效果
+- 支持全新的文章分享按钮
+- 支持Waline3的评论系统
 
 ## :bug: Bug修复
 
@@ -45,3 +47,6 @@ url: release/hugo-next-4-7-1-release.html
 - 其他Hugo版本升级代码迭代优化
 
 欢迎大家使用和反馈，祝你好运！！！:tada: :tada: :tada:
+
+> [!NOTE]
+> 更多详细的升级记录可参考：[HugoNexT4.7.2 新功能和升级提示](https://lisenhui.cn/blog/hugo-next-v472-features-and-tips.html)
