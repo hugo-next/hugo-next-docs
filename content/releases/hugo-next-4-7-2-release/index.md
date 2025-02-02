@@ -13,7 +13,7 @@ tags:
   - 4.7.x
 
 expand: true
-url: release/hugo-next-4-7-1-release.html
+url: release/hugo-next-4-7-2-release.html
 ---
 
 此次版本发布共提交 **60** 余处按照路线图增加些新功能，同时修复发现的Bug，详细参考如下：
