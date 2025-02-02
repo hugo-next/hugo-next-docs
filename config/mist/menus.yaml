@@ -1,0 +1,41 @@
+main:
+  - identifier: home
+    name: 首页
+    pageRef: /
+    pre: home
+    weight: 1
+  - identifier: about
+    name: 关于
+    pageRef: /about
+    pre: user
+    weight: 2
+  - identifier: donation
+    name: 捐赠名单
+    pageRef: /donation
+    pre: hand-holding-dollar
+    weight: 3
+  - identifier: democrat
+    name: 示例
+    pageRef: /demo
+    pre: democrat
+    weight: 4
+  - identifier: releases
+    name: 发版记录
+    pageRef: /releases
+    pre: flag
+    weight: 5
+  - identifier: archives
+    name: 归档
+    pageRef: /archives
+    pre: archive
+    weight: 6
+  - identifier: flinks
+    name: 友情链接
+    pageRef: /flinks
+    pre: people-pulling
+    weight: 7
+  - identifier: commonweal
+    name: 公益 404
+    url: /404.html
+    pre: heartbeat
+    weight: 8

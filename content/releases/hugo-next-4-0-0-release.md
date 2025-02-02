@@ -1,7 +1,7 @@
 ---
-title: "Hugo Next 4.0.0 Release"
-description: "Hugo Next 4.0.0 正式发布公告通知。"
-keywords: "Hugo,Next,theme"
+title: "Hugo NexT 4.0.0 Release"
+description: "Hugo NexT 4.0.0 正式发布公告通知。"
+keywords: "Hugo,NexT,theme"
 
 date: 2022-07-04T14:03:34+08:00
 lastmod: 2022-07-04T14:03:34+08:00
@@ -15,7 +15,7 @@ tags:
   - 4.0.x
 
 expand: true
-url: hugo-next-4-0-0-release.html
+url: release/hugo-next-4-0-0-release.html
 ---
 
 全新设计的 `Hugo NexT` 主题 4.0.0 正式发布，移植自 `NexT` 的最新版本，已经实现的功能如下：

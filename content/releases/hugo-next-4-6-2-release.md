@@ -1,6 +1,6 @@
 ---
-title: "Hugo Next 4.6.2 Release"
-description: "Hugo Next 4.6.2 正式发布公告通知。"
+title: "Hugo NexT 4.6.2 Release"
+description: "Hugo NexT 4.6.2 正式发布公告通知。"
 keywords: "Hugo,NexT,theme"
 
 date: 2024-07-21T21:40:01+08:00
@@ -16,10 +16,10 @@ tags:
   - 4.6.x
 
 expand: true
-url: hugo-next-4-6-2-release.html
+url: release/hugo-next-4-6-2-release.html
 ---
 
-此次版本发布共提交 39 余处按照路线图增加些新功能，同时修复了些 BUG，参考如下：：
+此次版本发布共提交 39 余处按照路线图增加些新功能，同时修复了些 BUG，参考如下：
 
 - 增加第三方插件引用本地依赖的支持，同时新增加了cdnjs、unpkg、jsdelivr、staticfile、bootcdn、7ed、zstatic、zeyao等8个不同的CDN服务商，支持自定义CDN服务商配置，并在底部增加相应CDN服务的logo图示。默认使用本地资源加载
 ```yaml

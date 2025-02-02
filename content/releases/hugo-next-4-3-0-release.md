@@ -1,6 +1,6 @@
 ---
-title: "Hugo Next 4.3.0 Release"
-description: "Hugo Next 4.3.0 正式发布公告通知。"
+title: "Hugo NexT 4.3.0 Release"
+description: "Hugo NexT 4.3.0 正式发布公告通知。"
 keywords: "Hugo,NexT,theme"
 
 date: 2022-09-30T21:15:47+08:00
@@ -15,7 +15,7 @@ tags:
   - 4.3.x
 
 expand: true
-url: hugo-next-4-3-0-release.html
+url: release/hugo-next-4-3-0-release.html
 ---
 
 此次版本发布共提交 26 余处按照路线图增加些新功能，同时修复了些 BUG，参考如下：

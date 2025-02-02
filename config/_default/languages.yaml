@@ -2,13 +2,14 @@
 
 zh-cn:
   title: Hugo NexT
-  languageName: 中文
   languageCode: zh-CN
+  languageName: "简体中文"
   hasCJKLanguage: true
+  languageDirection: ltr
   weight: 1
-en:
+en-us:
   title: Hugo NexT
+  languageCode: en-US
   languageName: English
-  languageCode: en
   hasCJKLanguage: false
   weight: 2

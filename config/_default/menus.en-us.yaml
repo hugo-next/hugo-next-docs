@@ -1,0 +1,60 @@
+main:
+  - identifier: home
+    name: Home
+    pageRef: /
+    pre: home
+    weight: 1
+  - identifier: about
+    name: About
+    pageRef: /about
+    pre: user
+    weight: 2
+  - identifier: donation
+    name: Donation
+    pageRef: /donation
+    pre: hand-holding-dollar
+    weight: 3
+  - identifier: democrat
+    name: Demo
+    pageRef: /demo
+    pre: democrat
+    weight: 4
+  - identifier: multimenus
+    name: Multiple Menus
+    pre: bars
+    weight: 5
+  - identifier: syntax
+    name: Syntax Highlight
+    pageRef: /demo/09-syntax-highlighting
+    parent: multimenus
+    weight: 1
+  - identifier: shortcode
+    name: Shortcodes
+    pageRef: /demo/12-shortcodes
+    parent: multimenus
+    weight: 2
+  - identifier: blockquote
+    name: GithubAlert
+    pageRef: /demo/13-github-blockquote
+    parent: multimenus
+    weight: 3
+  - identifier: releases
+    name: Releases
+    pageRef: /releases
+    pre: flag
+    weight: 6
+  - identifier: archives
+    name: Archives
+    pageRef: /archives
+    pre: archive
+    weight: 7
+  - identifier: flinks
+    name: Friend's Link
+    pageRef: /flinks
+    pre: people-pulling
+    weight: 8
+  - identifier: commonweal
+    name: Commonweal404
+    url: /404.html
+    pre: heartbeat
+    weight: 9

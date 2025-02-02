@@ -69,7 +69,7 @@ jobs:
           FILE_PATH: "public/algolia.json"
 
       - name: Deploy Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.RSA_PRIVATE_KEY }}
           external_repository: hugo-next/hugo-next.github.io

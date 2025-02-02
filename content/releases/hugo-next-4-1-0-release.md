@@ -1,6 +1,6 @@
 ---
-title: "Hugo Next 4.1.0 Release"
-description: "Hugo Next 4.1.0 正式发布公告通知。"
+title: "Hugo NexT 4.1.0 Release"
+description: "Hugo NexT 4.1.0 正式发布公告通知。"
 keywords: "Hugo,NexT,theme"
 
 date: 2022-07-27T16:49:28+08:00
@@ -15,7 +15,7 @@ tags:
   - 4.1.x
 
 expand: true
-url: hugo-next-4-1-0-release.html
+url: release/hugo-next-4-1-0-release.html
 ---
 
 此次版本发布主要是为提升站点页面生成性能，同时修复了些 BUG，参考如下：

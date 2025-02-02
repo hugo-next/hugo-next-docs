@@ -10,9 +10,9 @@ mainSections: ["releases", "demo"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
-monthFormat: "01-02"
-dateFormat: "2006-01-02"
-timeFormat: "2006-01-02T15:04:05-07:00"
+monthFormat: "01月02日"
+dateFormat: "2006年01月02日"
+timeFormat: "2006年01月02日 15:04:05 CST"
 
 # 页面模式
 # Schemes
@@ -333,10 +333,41 @@ postMeta:
     readTime: true
     comments: 
       enable: true
-      plugin: waline
+      plugin: waline3
     views:
       enable: true
-      plugin: waline
+      plugin: waline3
+    # 是否开启过期提示
+    # Expired tip
+    expired: false
+    # 是否开启摘要显示
+    # Enable summary
+    summary: true
+
+# 文章内容中的提示信息设置
+# Alert settings in post content
+postAlerts:
+  info:
+    icon: "circle-info"
+    color: "#4A90E2"
+  note:
+    icon: "bell"
+    color: "#17A2B8"
+  help:
+    icon: "circle-question"
+    color: "#967ADC"
+  error:
+    icon: "circle-xmark"
+    color: "#DC3545"
+  warning:
+    icon: "triangle-exclamation"
+    color: "#F39C12"
+  success:
+    icon: "circle-check"
+    color: "#32CD32"
+  important:
+    icon: "circle-plus"
+    color: "#007BFF"
 
 # 文章底部的设置
 # Post footer settings
@@ -644,7 +675,7 @@ comments:
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
   # Available values: livere | waline | utterances | artalk | giscus 
-  active: waline
+  active: waline3
   # 让用户自己选择使用评论插件留言
   # 如果设置为 false，将采用 active 参数的那个插件
   # Setting `true` means remembering the comment system selected by 
@@ -657,7 +688,7 @@ comments:
   # `name` 参数名可选值：livere | waline | utterances | artalk | giscus
   # Modify texts or order for any naves, here are some examples.
   nav:
-    - name: waline
+    - name: waline3
       title: Waline
       color: "#27ae60"
       weight: 1
@@ -670,8 +701,8 @@ comments:
 # 更多配置信息请参考：https://waline.js.org/
 # Waline comments system
 # More info seee: https://waline.js.org/
-waline:
-  placeholder: "请文明发言哟 ヾ(≧▽≦*)o \n\n可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄\n(Window系统：Win+.，Mac系统：Control+Command+Space)"
+waline3:
+  placeholder: "请文明发言哟 ヾ(≧▽≦*)o \\n\\n可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄\\n(Window系统：Win+.，Mac系统：Control+Command+Space)"
   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
   emoji: false
   imgUploader: false
@@ -766,11 +797,19 @@ rating:
   id:     # <app_id>
   color:  "#fc6423"
 
-# AddThis文章分享功能
-# 更多信息及配置请参考：https://www.addthis.com
-# AddThis Share. 
-# See: https://www.addthis.com
-addThisId: "#{Add_This_Id}" 
+# 文章分享功能
+share:
+  enable: true
+  # 更多信息与配置，请参考：https://sharethis.com
+  # For more information and configuration, please refer to:https://sharethis.com
+  # sharethis:
+  #   id: "#{Sharethis_Id}"
+  # 简单的在线分享，没有统计数据功能，更多信息可参考：https://www.addtoany.com/
+  # Simple online sharing without statistical data function. 
+  # For more information, please refer to: https://www.addtoany.com/
+  addtoany:    
+    locale: zh-CN
+    num_services: 8 
 
 
 # ---------------------------------------------------------------
@@ -854,7 +893,7 @@ chat:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: true
+  enable: false
   room: hugo-next/community
 
 
@@ -919,7 +958,7 @@ motion:
     postBlock: fadeIn
     postHeader: fadeInDown
     postBody: fadeInDown
-    collHeader: fadeInLeft
+    collHeader: slideInRight
     # 侧边样效果 只有在 Pisces | Gemini 模式下才支持
     # Only for Pisces | Gemini.
     sidebar: fadeInUp
