@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  TZ: Asia/Shanghai
+
 jobs:
 
   sync-2-gitee:
@@ -41,6 +44,11 @@ jobs:
           UTER_REPO_NAME: ${{ secrets.UTER_REPO_NAME }}
           WALINE_SERVER_URL: ${{ secrets.WALINE_SERVER_URL }}
         run: sh .github/scripts/replace-vars.sh
+      
+      - name: Show TimeZone
+        run: |
+          echo "Current timezone is $TZ"
+          date
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
