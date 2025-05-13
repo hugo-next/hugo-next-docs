@@ -17,7 +17,9 @@ url: release/hugo-next-4-7-3-release.html
 
 ---
 
-**注意：** Hugo框架新版本变化比较大，当前主题只支持`v0.134.0~v0.145.0`之间的版本。
+> [!IMPORTANT]
+> **注意：** Hugo框架新版本变化比较大，当前主题只支持`v0.134.0~v0.145.0`之间的版本。<br/>
+> 另外感谢网友[@JefferyWang](https://github.com/JefferyWang)在新版本中贡献了`Twikoo`的评论组件，但该组件内部的示例代码中包含有伪密钥信息，触发了Github的安全管理规范要求会导致提交仓库失败，目前暂无其他可行解决方案，只能在首次提交时手动点击允许，参考说明：[#793](https://github.com/twikoojs/twikoo/issues/793)
 
 此次版本发布共提交 **40** 余处按照路线图增加些新功能，同时修复发现的Bug，详细参考如下：
 
@@ -42,5 +44,11 @@ url: release/hugo-next-4-7-3-release.html
 
 **详细变更日志**: [v4.7.2-->v4.7.3](https://github.com/hugo-next/hugo-theme-next/compare/v4.7.2...v4.7.3)
 
-> 在此非常感谢以下小伙伴们贡献的代码和建议，也期待更多小伙伴们的加入，谢谢。
-> [@chn-lee-yumi](https://github.com/chn-lee-yumi)、  [@rise-worlds](https://github.com/rise-worlds)、[@JefferyWang](https://github.com/JefferyWang)、[@hxhue](https://github.com/hxhue)、@zane、@Mortal
+> [!SUCCESS] `HugoNexT`因有你更精彩
+> 在此非常感谢以下小伙伴们贡献的代码和建议，也期待更多小伙伴们的加入，谢谢。<br/>
+> [@chn-lee-yumi](https://github.com/chn-lee-yumi) <br/>
+> [@rise-worlds](https://github.com/rise-worlds) <br/>
+> [@JefferyWang](https://github.com/JefferyWang) <br/>
+> [@hxhue](https://github.com/hxhue) <br/>
+> @zane <br/>
+> @Mortal
