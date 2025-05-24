@@ -5,11 +5,11 @@ keywords: "Hugo,NexT,theme"
 date: 2025-05-05T11:52:54+08:00
 lastmod: 2025-05-05T11:52:54+08:00
 
-categories:
-  - 发布
+categories: 
+  - Release
   - 4.7.x
-tags:
-  - 发布
+tags: 
+  - Release
   - 4.7.x
 
 expand: true
@@ -40,11 +40,12 @@ This version release includes over **40** new features added according to the ro
 - Improved the display of code blocks, with a default maximum height of `200px`. If exceeded, a dropdown expand button will be displayed
 - Optimized the display position of article summaries and expiration reminder windows on mobile devices
 
-Everyone is welcome to use and provide feedback. Good luck!!! :tada: :tada: :tada:
 
 **Detailed Change Log**: [v4.7.2-->v4.7.3](https://github.com/hugo-next/hugo-theme-next/compare/v4.7.2...v4.7.3)
 
-> [!SUCCESS] `HugoNexT` is more wonderful because of you
+Everyone   is welcome to use and provide feedback. Good luck!!!: tada: : tada: : tada: 
+
+> [!SUCCESS] `Hugo NexT` is more wonderful because of you
 > Special thanks to the following contributors for their code and suggestions. We also look forward to more people joining us. Thank you.<br/>
 > [@chn-lee-yumi](https://github.com/chn-lee-yumi) <br/>
 > [@rise-worlds](https://github.com/rise-worlds) <br/>
