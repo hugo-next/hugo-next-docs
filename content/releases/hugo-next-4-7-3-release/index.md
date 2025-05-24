@@ -39,12 +39,12 @@ url: release/hugo-next-4-7-3-release.html
 
 - 美化代码块的展示方式，默认最大高度为`200px`，超过会显示下拉展开按钮；
 - 优化文章摘要和过期提醒窗口在移动端显示偏移位置显示效果
-
-欢迎大家使用和反馈，祝你好运！！！ :tada: :tada: :tada:
-
+  
 **详细变更日志**: [v4.7.2-->v4.7.3](https://github.com/hugo-next/hugo-theme-next/compare/v4.7.2...v4.7.3)
 
-> [!SUCCESS] `HugoNexT`因有你更精彩
+欢迎大家使用和反馈，祝你好运！！！: tada: : tada: : tada: 
+
+> [!SUCCESS] `Hugo NexT`因有你更精彩
 > 在此非常感谢以下小伙伴们贡献的代码和建议，也期待更多小伙伴们的加入，谢谢。<br/>
 > [@chn-lee-yumi](https://github.com/chn-lee-yumi) <br/>
 > [@rise-worlds](https://github.com/rise-worlds) <br/>
