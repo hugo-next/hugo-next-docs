@@ -1005,7 +1005,7 @@ vendors:
     internal: local
     # The default CDN provider of third-party plugins.
     # Available values: local | cdnjs | unpkg | jsdelivr | staticfile | bootcdn | 7ed | zstatic | zeyao | custom
-      plugins         : unpkg
+    plugins: unpkg
     # Custom CDN URL
     # For example:
     # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
